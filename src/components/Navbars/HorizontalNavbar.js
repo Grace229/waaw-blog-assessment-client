@@ -13,6 +13,7 @@ import { userAuthActions } from "./../../redux/actions/actionCreator";
 const { SubMenu } = Menu;
 
 export default function HorizontalNavbar() {
+  const router = useHistory();
   const userState = useSelector((st) => st.user);
   const dispatch = useDispatch();
 
