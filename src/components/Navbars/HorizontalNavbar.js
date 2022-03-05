@@ -52,7 +52,7 @@ export default function HorizontalNavbar() {
               icon={<FormOutlined />}
               className="float-right"
             >
-              <a href="/posts/new">New Post</a>
+              <p onClick={() => router.push("/posts/new")}>New Post</p>
             </Menu.Item>
           </>
         ) : (
